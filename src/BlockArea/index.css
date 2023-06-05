@@ -1,0 +1,43 @@
+.block-area-wrapper {
+    display: flex;
+    padding: 2vw;
+    border-radius: 15px;
+    border: 1px solid #618afb;
+    position: relative;
+    .title {
+        position: absolute;
+        z-index: 100;
+        top: 0;
+        transform: translateY(-50%);
+        background: #fff;
+        padding: 10px;
+        font-weight: 600;
+    }
+}
+
+.card-field {
+    display: flex;
+    flex-direction: column;
+    .card-field-value {
+        padding: 4px 11px
+    }
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.transcation-list {
+    width: 100%;
+    height: 20vw;
+    overflow: scroll;
+}
+
+.address {
+    word-wrap: break-word;
+    word-break: normal;
+}
